@@ -1,2 +1,2 @@
 #!/bin/bash
-rev | LC_ALL=C sort -f
+cut -c 1 | paste -s -d ''
